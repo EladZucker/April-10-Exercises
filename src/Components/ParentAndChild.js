@@ -1,9 +1,7 @@
 /* 
-- Create a Parent and Child Components 
-- The child compoent will recieve a callback function as prop 
-- THe child component will have a button in its JSX that will call the 
-  function retrived from the parent
-- THe parent callback will print "clicked" in the console.log
+   - Parent can now recieve childs as prop by an array
+   - Each child should have a button.
+   - Clicking on a button cause the parent to create a new child.
 */
 
 const Child = ({clickEvent, ...props}) => {
